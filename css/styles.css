@@ -31,14 +31,22 @@ a {
 
 	/* color */
 	color: white !important;
-	
+
+}
+
+a:hover { 
+
+	/* alignment */
+	padding: 11px;
+	margin: 10px;
+
 }
 
 /* each individual link */
 .link {
 
 	/* alignment */
-	text-align: right;
+	text-align: center;
 	padding: 10px;
 	margin: 15px;
 	display: inline-block;
@@ -56,6 +64,29 @@ a {
 .links {
 
 	/* alignment*/
-	margin: 15px 15px 15px 750px;
+	margin: 15px 15px 15px 400px;
 	display: inline-block;
+}
+
+/* Styles for Headings */
+
+.heading1 {
+
+	/* alignment */
+	padding: 5px 660px 5px 5px;
+	margin: 15px 15px 15px 300px;
+
+	/* font */
+	font-size: 18px;
+}
+
+/* Styles for Images */ 
+
+.main-image {
+
+	/* alignment */
+	width: 740px;
+	height: 500px;
+	margin: 0px 0px 0px 300px;
+
 }
