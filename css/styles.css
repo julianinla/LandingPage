@@ -1,28 +1,52 @@
-/* basic element styles */
+/* Basic Element Styles */
+
 html {
 
+	/* font */
+	font-family: 'Lato', sans-serif;
 }
 	
 body {
 
 }
 
-/* styles for links */
+header {
+
+	/* alignment*/
+	text-align: left;
+	padding: 15px;
+	margin: 20px;
+	display: inline-block;
+}
+
+/* Styles for Links */
+
 a {
 	text-decoration: none !important;
 }
 
+/* each individual link */
 .link {
+
+	/* alignment */
 	text-align: right;
 	padding: 10px;
 	margin: 15px;
 	display: inline-block;
+
+	/* color */
 	color: black !important;
 	background-color: black;
 	opacity: 0.2;
+	
+	/* font */
 	font-size: 15px;
 }
 
+/* div that holds the links */
 .links {
+
+	/* alignment*/
 	margin: 15px 15px 15px 750px;
+	display: inline-block;
 }

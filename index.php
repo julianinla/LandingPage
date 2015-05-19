@@ -10,11 +10,11 @@
 		<link rel="stylesheet" href="css/bootstrap-theme.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 
+		<!-- fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
+
 	</head>
 	<body>
-
-		<!-- big jeader at top of page -->
-		<header>Julian van Riet</header>
 
 		<!-- links to different pages -->
 		<div class="links">
