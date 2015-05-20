@@ -19,11 +19,11 @@
 		<!-- links to different pages -->
 		<div class="links">
 			<!-- home link -->
-			<div class="link"><a href="">Home</a></div>
+			<div class="link"><a href="../LandingPage/index.php">Home</a></div>
 			<!-- about me link -->
-			<div class="link"><a href="">About Me</a></div>
+			<div class="link"><a href="../LandingPage/about_me.php">About Me</a></div>
 			<!-- projects.work link -->
-			<div class="link"><a href="">Projects/Work</a></div>
+			<div class="link"><a href="../LandingPage/projects.php">Projects/Work</a></div>
 			<!-- contacts/social media link -->
-			<div class="link"><a href="">Contacts/Social Media</a></div>
+			<div class="link"><a href="../LandingPage/contacts.php">Contacts/Social Media</a></div>
 		</div>

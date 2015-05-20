@@ -90,3 +90,18 @@ a:hover {
 	margin: 0px 0px 0px 300px;
 
 }
+
+/* Style for Content */
+
+.back {
+
+	/* alignemnt */
+	margin: 15px;
+	padding: 20px;
+
+	/* color */
+	color: white !important;
+	background-color: black;
+	opacity: 0.5;
+
+}
