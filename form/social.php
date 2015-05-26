@@ -1,22 +1,23 @@
+<header class="heading1 link"> Sign Up for Updates </header>    
+
+<br><br><br>
+
 <form action="form/email.php" method="post" class="email-form">
     <div>
-        <label for="name">Your Name: </label>
-        <input type="text" name="name"/>
+        <input type="text" name="name" placeholder="Name" class="submit-content1 style-1"/>
     </div>
     <br>
     <div>
-        <label for="email">Email: </label>
-        <input type="text" name="email"/>
+        <input type="text" name="email" placeholder="Email" class="submit-content1 style-1"/>
     </div>
     <br>
     <div>
-        <label for="message">Comment: </label>
-        <input type="text" name="message"/>
+        <input type="text" name="message" placeholder="Comment" class="submit-content1 style-1"/>
     </div>
     <br>
-    <div class="submitbutton">
+    <div class="submit-button">
         <input type="hidden" name="login" value="login" />
-        <button type="submit">Submit</button>
+        <button type="submit" class="link">Submit</button>
     </div>
 </form>
 
