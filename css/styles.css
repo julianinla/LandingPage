@@ -34,14 +34,6 @@ a {
 
 }
 
-a:hover { 
-
-	/* alignment */
-	padding: 11px;
-	margin: 10px;
-
-}
-
 /* each individual link */
 .link {
 
@@ -60,6 +52,19 @@ a:hover {
 	font-size: 15px;
 }
 
+/* when hover on link */
+.link:hover {
+	
+	/* color */
+	opacity: 0.8;
+	border: solid white 1px;
+
+	/* alignment */
+	padding: 9px;
+	margin: 15px;
+
+}
+
 /* div that holds the links */
 .links {
 
@@ -70,6 +75,7 @@ a:hover {
 
 /* Styles for Headings */
 
+/* first heading*/
 .heading1 {
 
 	/* alignment */
@@ -78,6 +84,41 @@ a:hover {
 
 	/* font */
 	font-size: 18px;
+}
+
+/* on hover heading to elminate link styles*/
+.heading1:hover {
+
+	/* color */
+	opacity: 0.5;
+	border: none;
+
+	/* alignment */
+	padding: 5px 660px 5px 5px;
+	margin: 15px 15px 15px 300px;
+}
+
+/* second heading*/
+.heading2 {
+
+	/* alignment */
+	padding: 5px 1280px 5px 5px;
+	margin: 15px 15px 15px 15px;
+
+	/* font */
+	font-size: 18px;
+}
+
+/* on hover heading to elminate link styles*/
+.heading2:hover {
+
+	/* color */
+	opacity: 0.5;
+	border: none;
+
+	/* alignment */
+	padding: 5px 1280px 5px 5px;
+	margin: 15px 15px 15px 15px;
 }
 
 /* Styles for Images */ 
@@ -89,11 +130,19 @@ a:hover {
 	height: 500px;
 	margin: 0px 0px 0px 300px;
 
+	/* border */
+    border-radius: 25px;
+    background: url(paper.gif);
+
+    /* img settings*/
+    background-position: left top;
+    background-repeat: repeat;
+
 }
 
 /* Style for Content */
 
-.back {
+.back-content {
 
 	/* alignemnt */
 	margin: 15px;
@@ -103,5 +152,76 @@ a:hover {
 	color: white !important;
 	background-color: black;
 	opacity: 0.5;
+
+}
+
+.back-content:hover {
+
+	/* alignemnt */
+	margin: 15px;
+	padding: 19px;
+
+	/* color */
+	opacity: 0.8;
+	border: solid white 1px;
+
+}
+
+/* Styles for Carousel */
+
+.arrow-style {
+
+	/* alignment */
+	height: 40px;
+	padding: 5px !important;
+
+}
+
+.dot-style {
+
+	/* leave empty */
+	padding: 10px;
+	margin: 20px;
+
+}
+
+.dot-style:hover {
+
+	/* alignment */
+	padding: 10px;
+	margin: 15px;
+
+}
+
+.pic-carousel {
+
+	/* alignment */
+	text-align: center;
+	margin: 0px 0px 0px 255px;
+
+}
+
+.carousel-style {
+
+	/* alignment */
+	width: 725px;
+	height: 500px;
+	margin: 15px 15px 15px 60px;
+
+}
+
+.pic-info {
+
+	/* alignemnt */
+	/*margin: 15px 15px 15px 400px !important;*/
+	padding: 20px !important;
+
+}
+
+.pic-info:hover {
+
+	/* alignemnt */
+	/*margin: 15px 15px 15px 400px !important;*/
+	padding: 19px;
 
 }
