@@ -1,12 +1,17 @@
-<form>
+<form action="form/email.php" method="post" class="email-form">
     <div>
-        <label for="username">Username: </label>
-        <input type="text" name="username"/>
+        <label for="name">Your Name: </label>
+        <input type="text" name="name"/>
     </div>
     <br>
     <div>
-        <label for="password">Password: </label>
-        <input type="password" name="password"/>
+        <label for="email">Email: </label>
+        <input type="text" name="email"/>
+    </div>
+    <br>
+    <div>
+        <label for="message">Comment: </label>
+        <input type="text" name="message"/>
     </div>
     <br>
     <div class="submitbutton">
@@ -14,3 +19,4 @@
         <button type="submit">Submit</button>
     </div>
 </form>
+
