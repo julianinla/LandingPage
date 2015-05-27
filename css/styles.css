@@ -278,3 +278,19 @@ input[type="text"]:focus {
 	text-align: center;
 }
 
+/* Media Links */
+
+.media-div {
+
+	/* alignemtn */
+	margin: 10px 10px 10px 615px;
+
+}
+
+.media-icon {
+
+	/* alignment */
+	text-align: center;
+	margin: 10px;
+
+}

@@ -21,3 +21,8 @@
     </div>
 </form>
 
+<div class="media-div">
+    <a href="https://www.facebook.com/julian.vanriet"> <img src="../LandingPage/img/fb.svg" width="47" height="47" class="media-icon"> </a>
+    <a href="https://instagram.com/julian_in_la"> <img src="../LandingPage/img/insta.gif" width="50" height="50" class="media-icon"> </a>
+</div>
+

@@ -6,8 +6,8 @@
 	$email = $_POST["email"]; //stores email as var
 	$msg = $_POST["message"]; //stores comment as var
 
-    mail("julianinla@me.com", $name, $email, $msg); 
+    // mail("julianvanriet@gmail.com", "New Subscriber", $name . $email . $msg, $header); 
 
-    header('Location: http://localhost/LandingPage/index.php');
+    //header('Location: http://localhost/LandingPage/index.php');
 
 ?>
