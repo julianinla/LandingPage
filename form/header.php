@@ -10,6 +10,10 @@
 		<link rel="stylesheet" href="css/bootstrap-theme.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 
+		<!-- link for device width -->
+		<meta name="viewport" content="width-device width, initial-scale=1.0">
+
+
 		<!-- fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
 

@@ -14,6 +14,7 @@
 
 ?>
 
+<script src="/LandingPage/js/index.js"></script>
 
 
 

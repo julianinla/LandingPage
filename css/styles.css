@@ -4,7 +4,6 @@ html {
 
 	/* font */
 	font-family: 'Lato', sans-serif;
-
 }
 	
 body {
@@ -31,7 +30,6 @@ a {
 
 	/* color */
 	color: white !important;
-
 }
 
 /* each individual link */
@@ -62,7 +60,6 @@ a {
 	/* alignment */
 	padding: 9px;
 	margin: 15px;
-
 }
 
 /* div that holds the links */
@@ -121,6 +118,29 @@ a {
 	margin: 15px 15px 15px 15px;
 }
 
+/* social media heading*/
+.heading3 {
+
+	/* alignment */
+	padding: 5px 515px 5px 5px;
+	margin: 15px 15px 15px 350px;
+
+	/* font */
+	font-size: 18px;
+}
+
+/* on hover heading to elminate link styles*/
+.heading3:hover {
+
+	/* color */
+	opacity: 0.5;
+	border: none;
+
+	/* alignment */
+	padding: 5px 515px 5px 5px;
+	margin: 15px 15px 15px 350px;
+}
+
 /* Styles for Images */ 
 
 .main-image {
@@ -137,7 +157,6 @@ a {
     /* img settings*/
     background-position: left top;
     background-repeat: repeat;
-
 }
 
 /* Style for Content */
@@ -152,7 +171,6 @@ a {
 	color: white !important;
 	background-color: black;
 	opacity: 0.5;
-
 }
 
 .back-content:hover {
@@ -164,7 +182,6 @@ a {
 	/* color */
 	opacity: 0.8;
 	border: solid white 1px;
-
 }
 
 /* Styles for Carousel */
@@ -174,7 +191,6 @@ a {
 	/* alignment */
 	height: 40px;
 	padding: 5px !important;
-
 }
 
 .dot-style {
@@ -182,7 +198,6 @@ a {
 	/* leave empty */
 	padding: 10px;
 	margin: 20px;
-
 }
 
 .dot-style:hover {
@@ -190,7 +205,6 @@ a {
 	/* alignment */
 	padding: 10px;
 	margin: 15px;
-
 }
 
 .pic-carousel {
@@ -198,7 +212,6 @@ a {
 	/* alignment */
 	text-align: center;
 	margin: 0px 0px 0px 255px;
-
 }
 
 .carousel-style {
@@ -207,7 +220,6 @@ a {
 	width: 725px;
 	height: 500px;
 	margin: 15px 15px 15px 60px;
-
 }
 
 .pic-info {
@@ -215,7 +227,6 @@ a {
 	/* alignemnt */
 	/*margin: 15px 15px 15px 400px !important;*/
 	padding: 20px !important;
-
 }
 
 .pic-info:hover {
@@ -223,7 +234,6 @@ a {
 	/* alignemnt */
 	/*margin: 15px 15px 15px 400px !important;*/
 	padding: 19px;
-
 }
 
 /* Styles for Email Form*/
@@ -232,14 +242,12 @@ a {
 
 	/* alignment */
 	/*text-align: center;*/
-
 }
 
 .submit-content1 {
 
 	/* alignment */
 	margin: 10px 10px 10px 350px;
-
 }
 
 input[type="text"] {
@@ -256,10 +264,10 @@ input[type="text"] {
   	appearance: none;
   	box-shadow: none;
   	border-radius: none;
-
 }
 
 input[type="text"]:focus {
+
   outline: none;
 }
 
@@ -268,6 +276,7 @@ input[type="text"]:focus {
   border: solid 1px #dcdcdc;
   transition: box-shadow 0.3s, border 0.3s;
 }
+
 .style-1 input[type="text"]:focus,
 .style-1 input[type="text"].focus {
   border: solid 1px #707070;
@@ -276,6 +285,14 @@ input[type="text"]:focus {
 
 .submit-button {
 	text-align: center;
+	margin: 5px;
+	padding: 10px;
+}
+
+.submit-button:hover {
+	text-align: center;
+	margin: 5px;
+	padding: 10px;
 }
 
 /* Media Links */
@@ -284,7 +301,6 @@ input[type="text"]:focus {
 
 	/* alignemtn */
 	margin: 10px 10px 10px 615px;
-
 }
 
 .media-icon {
@@ -292,5 +308,44 @@ input[type="text"]:focus {
 	/* alignment */
 	text-align: center;
 	margin: 10px;
+}
 
+/* CSS Media Queries */
+
+@media (min-device-width: 375px) and (max-width: 667px) {
+  .main-page {
+  	width: 100% !important;
+  	height: 100% !important;
+  }
+  .main-image {
+  	width: 335px !important;
+  	height: 330px !important;
+  	margin: 15px;
+  }
+  .links {
+  	margin: 0px !important;
+  	width: 100% !important;
+  	height: 100% !important;
+  }
+  .link {
+  	display: block;
+  	padding: 5px;
+	margin: 15px;
+  }
+  .heading1 {
+  	padding: 5px;
+	margin: 15px;
+  }
+  .pic-carousel {
+	margin: 0px;
+  }
+  .carousel-style {
+	width: 280px;
+	height: 180px;
+	margin: 30px 15px 20px 45px;
+	padding: 40px 0px 0px 0px;
+  }
+  .pic-info {
+	display: none;
+  }
 }

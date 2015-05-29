@@ -1,4 +1,4 @@
-<header class="heading1 link"> Sign Up for Updates </header>    
+<header class="heading3 link"> Sign Up for Updates </header>    
 
 <br><br><br>
 

@@ -13,3 +13,5 @@
 	require_once(__DIR__ . "/form/footer.php");
 
 ?>
+
+<script src="/LandingPage/js/about.js"></script>
