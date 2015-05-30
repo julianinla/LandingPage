@@ -342,10 +342,20 @@ input[type="text"]:focus {
   .carousel-style {
 	width: 280px;
 	height: 180px;
-	margin: 30px 15px 20px 45px;
-	padding: 40px 0px 0px 0px;
+	margin: 30px 15px 20px 45px !important;
+	padding: 40px 0px 0px 0px !important;
   }
   .pic-info {
 	display: none;
+  }
+  .back-content2 {
+  	margin: 60px 5px 17px 5px;
+  }
+  .submit-content1 {
+  	margin: 10px 10px 10px 90px;
+  	text-align: center;
+  }
+  .submit-button {
+  	margin: 0px 0px 0px 75px;
   }
 }

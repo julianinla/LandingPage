@@ -17,7 +17,7 @@
     <br>
     <div class="submit-button">
         <input type="hidden" name="login" value="login" />
-        <button type="submit" class="link">Submit</button>
+        <button type="submit" class="link submit-button">Submit</button>
     </div>
 </form>
 

@@ -29,7 +29,7 @@
         I was able to complete a project that was a simple blog, requiring a login and logout and showing different posts on the page.
       </div>
     </div>
-    <div class="back-content">The various projects I have worked on as a programmer and web developer.</div>
+    <div class="back-content back-content2">The various projects I have worked on as a programmer and web developer.</div>
   </div>
 
   <!-- Controls -->
